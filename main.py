@@ -666,9 +666,7 @@ async def main():
         "🚀 Mercari Alert 시작"
     )
 
-    # 1. Telegram에서 보낸 설정 명령 처리
-    check_telegram_commands()
-
+    
     # 2. 저장된 조건으로 상품 검색
     await monitor_mercari()
 
